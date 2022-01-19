@@ -11,6 +11,8 @@ namespace GitLecture
             int result = Add(num1, num2);
             Console.WriteLine(result);
 
+            Console.WriteLine("################ THIS IS A REALLY BAD PROGRAM ################");
+
             result = Multiply(num1, num2);
             Console.WriteLine(result);
 
