@@ -13,6 +13,9 @@ namespace GitLecture
 
             Console.WriteLine("################ THIS IS A REALLY BAD PROGRAM ################");
 
+            result = Subtract(num2, num1);
+            Console.WriteLine(result);
+
             result = Multiply(num1, num2);
             Console.WriteLine(result);
 
@@ -23,6 +26,11 @@ namespace GitLecture
         private static int Add(int num1, int num2)
         {
             return num1 + num2;
+        }
+
+        private static int Subtract(int num1, int num2)
+        {
+            return num1 - num2;
         }
 
         private static int Multiply(int num1, int num2)
