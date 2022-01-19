@@ -13,6 +13,9 @@ namespace GitLecture
 
             result = Multiply(num1, num2);
             Console.WriteLine(result);
+
+            result = Divide(num2, num1);
+            Console.WriteLine(result);
         }
 
         private static int Add(int num1, int num2)
@@ -23,6 +26,11 @@ namespace GitLecture
         private static int Multiply(int num1, int num2)
         {
             return num1 * num2;
+        }
+
+        private static int Divide(int num1, int num2)
+        {
+            return num1 / num2;
         }
     }
 }
